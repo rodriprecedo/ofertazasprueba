@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	margin-top: 2%;
+}
+
+#logo{
+	width: 14vw;
+	border-radius: 50%;
+	box-shadow: 2px 2px 20px #e3bc3b;
+	margin: 2vw 0 2vw 2vw;
+}
+
+#instagram{
+	display: inline-block;
+	float: right;
+	width: 9vw;
+	margin: 4vw 2vw 4vw 0;
+
+}
+
+
+
+table{
+	margin: auto;
+	padding: 5% 0 5% 0;
+}
+
+
+tr td{
+	padding: 8px;
+	color: #ffc36e;
+	background-color: #ff6d88; 
+	margin: auto;
+	border-radius: 20%;
+	text-align: center;
+	font-family: "Courgette", cursive;
+	font-size: 4vw;
+	border: 3px solid red;
+	border-style: outset;
+	box-shadow: 2px 2px 5px gray;
+	text-shadow: 2px 2px 3px orange;
+}
+
+
+
+body{
+	background-image: url(imagenes/hearts.jpg);
+	background-size: 150px;
+	background-attachment: fixed;
+
+
+	
+}
+
+footer{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px gray;
+	margin: 0 4% 2% 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+
+
+}
+
+footer p{
+	font-family: "Courgette", cursive;
+	display: block;
+	color: #ff6d88;
+	font-size: 2vw;
+	margin-top: 2.5vw;
+
+}
+
+footer img{
+	margin-left: 0;
+	width: 7vw;
+	display: block;
+	margin: 1vw 2vw 1vw 1vw;
+
+	
+}
+
+.container{
+	min-height: calc(100vh);
+}
+
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{	
+	margin: 5vw 0 0 -3vw;
+	font-family: "Courgette", cursive;
+	border-radius: 9px;
+	display: block;
+	font-size: 6vw;
+	color: #ff6d88;
+	text-shadow: 2px 2px 40px #e3bc3b;
+}
+
+.fecha{
+	font-size: 1.5vw;
+	padding: 0;
+	font-family: "Courgette", cursive;
+	color: #ff6d88;
+}
+
+.FondoSecundario{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px gray;
+	margin: 0 4% 2% 4%;
+
+  }
+
+
+  #premios{
+  	display: block;
+  	
+  }
+
+  .premio{
+  	width: 85vw;
+  	margin: auto;
+  	margin-top: 3vw;
+  }
+
+  #valores{
+  
+  }
+
+  .valores{
+  	width: 80vw;
+  }
+
+/*Padre de div premios y valores*/
+  .PremiosValores{
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+
+
+  }
+
+.reservado{
+	color: #752c1c;
+	background-color: #4f1d14; 
+	width: 10%;
+	height: 10%;
+	border-radius: 20%;
+	text-align: center;
+	font-family: "Courgette", cursive;
+	font-size: 4vw;
+	border: 3px solid #752c1c;
+	text-shadow: none;
+}
+
+.todo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
+
+}
+
